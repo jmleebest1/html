@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>form input 연습</title>
+<style>
+	#join{
+		font-size: 25px;
+	}
+	
+	.idmargin{
+		margin-left: 20px;
+	}
+</style>
+</head>
+<body>
+	<p id="join"><strong>회원가입</strong></p>
+	<p><strong>Member Join</strong></p>
+	<p>기본정보</p>
+<form action="" method="get" name="joinForm">
+	<div >
+		아이디<input class="idmargin" type="id" placeholder="아이디를 입력해주세요." name="userId">
+	</div>
+
+	<div>
+		비밀번호<input type="password" placeholder="비밀번호를 입력해주세요." name="userPw">
+	</div>
+	<div>
+		비밀번호 확인<input type="password" placeholder="한번 더 입력해주세요." name="pwCheck">
+	</div>
+	<div>
+		서명<input type="text">
+	</div>
+	<div style="padding: 15px">
+		<span>이메일</span><input type="email"><span>mail.com</span>
+	</div>
+		선택 
+			<select name="site">
+				<option value="choice">선택</option>
+				<option value="naver">네이버</option>
+				<option value="daum">다음</option>
+				<option value="nate">네이트</option>
+				<option value="google">구글</option>
+			</select>
+	<div>
+		휴대전화<select name="phone">
+				<option value="choice">선택</option>
+				<option value="010">010</option>
+				<option value="011">011</option>
+				<option value="016">016</option>
+			</select>
+		<input type="tel"><input type="tel">
+	</div>		
+	<fieldset>
+		<legend>전공유무</legend>
+			<div>
+				<label>
+				<input type="radio" value="major" name="major">관련전공자
+				</label>
+				<label>
+				<input type="radio" value="major" name="nomajor">비전공자
+				</label>				
+			</div>		
+	</fieldset>
+	<div>
+		SMS/메일수신여부
+		<label>
+			<input type="radio" value=susin name="susin">수신함
+  		</label>
+  		<label>	
+			<input type="radio" value=nosusin name="nosusin">수신안함
+		</label>			
+	</div>
+	<span>
+		원서번호 
+	</span>
+	<span style="color: red">
+		21884
+	</span>
+</form>
+</body>
+</html>

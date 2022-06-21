@@ -1,0 +1,30 @@
+
+1월 07, 2022 15:43:28.53 NEW SESSION
+1월 07, 2022 15:43:28.53 [31168:24288:0107/154328.528:ERROR:device_event_log_impl.cc(214)] [15:43:28.529] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+1월 07, 2022 15:43:28.53 [31168:8500:0107/154328.537:ERROR:chrome_browser_main_extra_parts_metrics.cc(226)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+1월 07, 2022 15:43:28.53 [31168:8500:0107/154328.537:ERROR:chrome_browser_main_extra_parts_metrics.cc(229)] crbug.com/1216328: Checking Bluetooth availability ended.
+1월 07, 2022 15:43:28.53 [31168:8500:0107/154328.537:ERROR:chrome_browser_main_extra_parts_metrics.cc(232)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+1월 07, 2022 15:43:28.54 [31168:8500:0107/154328.539:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status ended.
+1월 07, 2022 15:45:46.48 [21592:21668:0107/154546.482:ERROR:chrome_browser_main_extra_parts_metrics.cc(226)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+1월 07, 2022 15:45:46.48 [21592:21668:0107/154546.482:ERROR:chrome_browser_main_extra_parts_metrics.cc(229)] crbug.com/1216328: Checking Bluetooth availability ended.
+1월 07, 2022 15:45:46.48 [21592:21668:0107/154546.482:ERROR:chrome_browser_main_extra_parts_metrics.cc(232)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+1월 07, 2022 15:45:46.48 [21592:21668:0107/154546.484:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status ended.
+1월 07, 2022 15:45:46.49 [21592:16108:0107/154546.489:ERROR:device_event_log_impl.cc(214)] [15:45:46.489] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+1월 07, 2022 16:21:02.66 [21592:16108:0107/162102.661:ERROR:device_event_log_impl.cc(214)] [16:21:02.660] USB: usb_service_win.cc:261 Failed to get device driver name: 요소가 없습니다. (0x490)
+1월 07, 2022 20:04:07.18 [21592:16108:0107/200407.183:ERROR:interface_endpoint_client.cc(658)] Message 940744386 rejected by interface blink.mojom.FrameWidgetHost
+
+1월 10, 2022 09:12:16.67 NEW SESSION
+1월 10, 2022 09:12:16.67 [22308:26112:0110/091216.669:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+1월 10, 2022 09:12:16.67 [22308:26112:0110/091216.669:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+1월 10, 2022 09:12:16.67 [22308:26112:0110/091216.669:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+1월 10, 2022 09:12:16.67 [22308:26112:0110/091216.672:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+1월 10, 2022 09:12:16.68 [22308:7148:0110/091216.682:ERROR:device_event_log_impl.cc(214)] [09:12:16.682] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+1월 10, 2022 09:12:16.70 [22308:7148:0110/091216.700:ERROR:device_event_log_impl.cc(214)] [09:12:16.700] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+1월 10, 2022 12:10:57.03 [22308:7148:0110/121057.029:ERROR:sharing_service.cc(252)] Device un-registration failed with fatal error
+1월 10, 2022 12:13:09.10 [22308:7148:0110/121309.103:ERROR:interface_endpoint_client.cc(658)] Message 0 rejected by interface blink.mojom.WidgetHost
+1월 10, 2022 14:32:47.09 [22308:7148:0110/143247.094:ERROR:interface_endpoint_client.cc(658)] Message 0 rejected by interface blink.mojom.WidgetHost
+1월 10, 2022 15:13:51.87 [22308:7148:0110/151351.876:ERROR:interface_endpoint_client.cc(658)] Message 3 rejected by interface blink.mojom.Widget
+1월 10, 2022 15:13:55.11 [22308:7148:0110/151355.116:ERROR:interface_endpoint_client.cc(658)] Message 1 rejected by interface blink.mojom.WidgetHost
+1월 10, 2022 15:13:55.11 [22308:7148:0110/151355.116:ERROR:interface_endpoint_client.cc(658)] Message 1 rejected by interface blink.mojom.WidgetHost
+1월 10, 2022 16:14:17.87 [22308:7148:0110/161417.878:ERROR:device_event_log_impl.cc(214)] [16:14:17.878] USB: usb_service_win.cc:261 Failed to get device driver name: 요소가 없습니다. (0x490)
+1월 10, 2022 16:28:00.23 [22308:7148:0110/162800.232:ERROR:interface_endpoint_client.cc(658)] Message 3 rejected by interface blink.mojom.Widget

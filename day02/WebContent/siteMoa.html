@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>링크 태그 - 실습</title>
+</head>
+<body>
+	<!-- 
+		네이버, 구글, 다음으로 이동할 수 있도록 구현한다.
+		각 이동은 배포한 이미지를 설정하여 클릭하면 이동하도록 하고, a태그를 사용한다.
+		네이버와 구글은 현재 페이지가 변하지만, 다음 사이트는 새 탭으로 열리도록 한다.
+		각 이미지는 site_img폴더에 담아놓고 상대경로로 접근하여 사용한다.
+	 -->
+	<div style="text-align: center;"><!-- 가운데 정렬 -->
+	 <h1><mark>이미지를 클릭하시면 해당 페이지로 이동합니다<mark><h1>
+	 <a href="https://www.naver.com/">
+	 	<img src="site_img/naver.gif" width="300"; height="180";>네이버 바로가기</a><br>
+	 <a href="https://www.google.co.kr/"><img src="site_img/google.gif" width="300"; height="180";>구글 바로가기</a><br>
+	 <a href="https://www.daum.net/" target="black"><img src="site_img/daum.gif" width="300"; height="180";>다음 바로가기</a>
+	</div>
+</body>
+</html>

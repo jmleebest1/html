@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+body {
+	/* 백그라운드 어둡게  */
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+		url(' https://assets.nflxext.com/ffe/siteui/vlv3/c16cf196-e89e-4c46-8cc7-f2eca6fb0762/891fc680-6d70-4a0a-9c4f-27243341799f/KR-ko-20220103-popsignuptwoweeks-perspective_alpha_website_small.jpg');
+	/* 이미지 화면에 꽉차게 */
+	/* height: 100vh; */
+	/* 백그라운드 이미지 여백에서 배경이미지 반복 안되게*/
+	background-repeat: no-repeat;
+	/* 여백부분 배경이미지에 맞게 검정으로 처리*/
+	background-color: black;
+	/* 마진을 0으로 주지 않으면 이미지 옆에 여백이 생김*/
+	margin: 0;
+}
+</style>
+</head>
+<body>
+
+	<!-- 로고  -->
+	<div style=" margin-left:30px; margin-top:10px;  height: 90px;">
+	<!-- 로고 밝기 조절 
+			넷플릭스 사이트에서 사용하는 이미지를 가져올수 없어서 
+			넷플릭스 로고를 별도로 다운로드후
+			밝기를 조절하여 비슷하게 구현
+	
+	  -->
+		<a href="https://www.netflix.com"><img src="logo.png" style="filter: brightness(250%); width: 175px; "></a>
+		
+	</div>
+	
+	<!-- 로그인 부분  -->
+	<!--  opacity는 투명도로 DIV 배경을 검정색으로 한뒤 투명도를 주어서 구현했다.-->
+	<div style="height: 550px; width: 300px; background-color: black; opacity: 0.7; margin: 0 auto; padding: 50px 68px 30px 68px;" >
+	
+		<!-- 로그인 입력창 -->
+		<div style="width: 314px; height: 352px; ">
+		<div>
+			<input placeholder="아이디를 입력해주세요.">
+		</div>
+		<!-- 인풋태그가 들어갈 공간 -->	
+		<h1 style="color: #fff">로그인</h1> <!-- 넷플릭스 사이트에서 사용하는 폰트의 색상은 #fff   -->
+		</div>
+		
+		
+	</div>
+	
+	
+	
+	
+	
+	<!-- 푸터 부분 -->
+	<!--  opacity는 투명도로 DIV 배경을 검정색으로 한뒤 투명도를 주어서 구현했다.-->
+	<div style="margin-top:45px; width:100%; height: 350px; background-color: black; opacity: 0.7; ">
+		
+		
+	</div>
+	
+	
+	
+	
+
+</body>
+</html>
